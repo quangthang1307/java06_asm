@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CheckoutController {
 	@RequestMapping("/checkout")
 	public String showCheckout() {
+		System.out.println("ádasds");
 		return "user/checkout";
 	}
 }
