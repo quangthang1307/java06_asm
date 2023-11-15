@@ -25,4 +25,9 @@ public class HomeController {
 	public String showForgottenPw() {
 		return "user/forgottenpw";
 	}
+	
+	@RequestMapping("/homeadmin")
+	public String showHomeAdmin() {
+		return "admin/home";
+	}
 }
