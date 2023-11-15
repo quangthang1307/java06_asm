@@ -10,4 +10,19 @@ public class HomeController {
 	public String showIndex() {
 		return "user/index";
 	}
+	
+	@RequestMapping("/login")
+	public String showLogin() {
+		return "user/login";
+	}
+	
+	@RequestMapping("/register")
+	public String showRegister() {
+		return "user/register";
+	}
+	
+	@RequestMapping("/forgottenpw")
+	public String showForgottenPw() {
+		return "user/forgottenpw";
+	}
 }
