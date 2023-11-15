@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CartController {
 	@RequestMapping("/cart")
 	public String showCart() {
+		System.out.println("ád");
+		System.out.println("ád");
 		return "user/cart";
 	}
 }

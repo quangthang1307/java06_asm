@@ -9,6 +9,7 @@ public class HomeController {
 	@RequestMapping("/index")
 	public String showIndex() {
 		System.out.println("sadad");
+		System.out.println("abc");
 		return "user/index";
 	}
 	
